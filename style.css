@@ -1,0 +1,96 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: gray;
+}
+
+.container{
+    display: flex;
+    height: 600px;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    
+    border-radius: 55px;
+    border: 1px solid gray;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: white;
+}
+
+.form label{
+    font-family: 'Times New Roman', Times, serif;
+
+}   
+
+.form h2{
+    margin-top: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box-border{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+}
+
+.chkbox {
+
+    font-weight: bold;
+    font-size: 10px;
+    display: inline;
+    margin-left: 10px;
+}
+
+#checkbox{
+    display: inline-block;
+}
+
+#submit{
+    padding: 10px 30px;
+    width: 45%;
+    background-color: rgb(17, 5, 39);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.side img{
+    width: 100% ;
+    height: 100%;
+}
+
+.side content{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0.5);
+    padding: 10px;
+}
