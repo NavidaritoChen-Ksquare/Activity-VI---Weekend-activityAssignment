@@ -41,6 +41,14 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.side h2,h3{
+    text-decoration: none;
+}
+
+.side h4{
+    color: whitesmoke;
+}
+
 .box-border{
     padding: 10px;
     margin: 15px;
@@ -56,6 +64,14 @@ body{
     display: inline;
     margin-left: 10px;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
 
 #checkbox{
     display: inline-block;
@@ -90,11 +106,31 @@ body{
     height: 100%;
 }   
 
-.side content{
-    position: absolute;
+div.content{
+
+
     bottom: 0;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
     padding: 10px;
     width: 100%;
+   
+
+}
+
+div.star, div.arrows{
+    float: right;
+}
+
+div.arrows > button{
+
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    color: white;
+}
+
+div.arrows > button:hover{
+    background-color: gray;
 }
